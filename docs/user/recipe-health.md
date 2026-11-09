@@ -44,8 +44,8 @@ The deep-link is the current Evidence rendering. It is distinct from — and coe
 {/* BEGIN AICR-HEALTH */}
 ## Summary
 
-- Recipes: **74**
-- Pass: **74** · Warn: **0** · Fail: **0** · Unknown: **0**
+- Recipes: **76**
+- Pass: **76** · Warn: **0** · Fail: **0** · Unknown: **0**
 
 ## Recipes
 
@@ -85,6 +85,7 @@ The deep-link is the current Evidence rendering. It is distinct from — and coe
 | h100-eks-ubuntu-inference-nim | eks | h100 | ubuntu | inference | nim | pass | R:0 D:4 P:0 C:11 | pending |
 | h100-eks-ubuntu-training-kubeflow | eks | h100 | ubuntu | training | kubeflow | pass | R:0 D:4 P:1 C:10 | [eks/h100-ubuntu/training-kubeflow](https://validation.aicr.run/#/eks/h100-ubuntu/training-kubeflow) |
 | h100-eks-ubuntu-training-kueue | eks | h100 | ubuntu | training | kueue | pass | R:0 D:4 P:1 C:9 | pending |
+| h100-eks-ubuntu-training-runai | eks | h100 | ubuntu | training | runai | pass | R:0 D:4 P:1 C:9 | pending |
 | h100-eks-ubuntu-training-slurm | eks | h100 | ubuntu | training | slurm | pass | R:0 D:4 P:0 C:11 | pending |
 | h200-eks-inference | eks | h200 | — | inference | — | pass | R:0 D:4 P:0 C:5 | pending |
 | h200-eks-training-kubeflow | eks | h200 | — | training | kubeflow | pass | R:0 D:4 P:1 C:10 | pending |
@@ -104,12 +105,13 @@ The deep-link is the current Evidence rendering. It is distinct from — and coe
 | h100-gke-cos-inference-dynamo | gke | h100 | cos | inference | dynamo | pass | R:0 D:4 P:1 C:11 | pending |
 | h100-gke-cos-training-kubeflow | gke | h100 | cos | training | kubeflow | pass | R:0 D:6 P:1 C:10 | pending |
 | h100-gke-cos-training-kueue | gke | h100 | cos | training | kueue | pass | R:0 D:6 P:1 C:9 | pending |
+| h100-gke-cos-training-runai | gke | h100 | cos | training | runai | pass | R:0 D:6 P:1 C:9 | pending |
 | h100-gke-cos-training-slurm | gke | h100 | cos | training | slurm | pass | R:0 D:6 P:0 C:11 | pending |
 | h200-k0s-ubuntu-training | k0s | h200 | ubuntu | training | — | pass | R:0 D:4 P:0 C:4 | [k0s/h200-ubuntu/training](https://validation.aicr.run/#/k0s/h200-ubuntu/training) |
-| h100-kind-inference-dynamo | kind | h100 | — | inference | dynamo | pass | R:0 D:4 P:0 C:11 | pending |
-| h100-kind-training-kubeflow | kind | h100 | — | training | kubeflow | pass | R:0 D:4 P:0 C:10 | pending |
-| h100-kind-training-kueue | kind | h100 | — | training | kueue | pass | R:0 D:4 P:0 C:9 | pending |
-| h100-kind-training-slurm | kind | h100 | — | training | slurm | pass | R:0 D:4 P:0 C:10 | pending |
+| h100-kind-inference-dynamo | kind | h100 | — | inference | dynamo | pass | R:0 D:4 P:0 C:10 | pending |
+| h100-kind-training-kubeflow | kind | h100 | — | training | kubeflow | pass | R:0 D:4 P:0 C:9 | pending |
+| h100-kind-training-kueue | kind | h100 | — | training | kueue | pass | R:0 D:4 P:0 C:8 | pending |
+| h100-kind-training-slurm | kind | h100 | — | training | slurm | pass | R:0 D:4 P:0 C:9 | pending |
 | rtx-pro-6000-lke-ubuntu-inference | lke | rtx-pro-6000 | ubuntu | inference | — | pass | R:0 D:4 P:0 C:9 | pending |
 | rtx-pro-6000-lke-ubuntu-training-kubeflow | lke | rtx-pro-6000 | ubuntu | training | kubeflow | pass | R:0 D:4 P:0 C:10 | pending |
 | b300-mk8s-ubuntu-inference-dynamo | mk8s | b300 | ubuntu | inference | dynamo | pass | R:0 D:4 P:1 C:3 | pending |

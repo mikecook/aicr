@@ -57,8 +57,8 @@ Today every committed pointer is `community`, published from a contributor fork 
 {/* BEGIN AICR-HEALTH */}
 ## Summary
 
-- Recipes: **81**
-- Pass: **81** · Warn: **0** · Fail: **0** · Unknown: **0**
+- Recipes: **82**
+- Pass: **82** · Warn: **0** · Fail: **0** · Unknown: **0**
 
 ## Recipes
 
@@ -128,6 +128,7 @@ Today every committed pointer is `community`, published from a contributor fork 
 | rtx-pro-6000-lke-ubuntu-inference | lke | rtx-pro-6000 | ubuntu | inference | — | pass | R:0 D:4 P:0 C:10 | pending | — |
 | rtx-pro-6000-lke-ubuntu-training-kubeflow | lke | rtx-pro-6000 | ubuntu | training | kubeflow | pass | R:0 D:4 P:0 C:11 | pending | — |
 | b300-mk8s-ubuntu-inference-dynamo | mk8s | b300 | ubuntu | inference | dynamo | pass | R:0 D:4 P:1 C:3 | pending | community |
+| gb200-nvke-ubuntu-inference-dynamo | nvke | gb200 | ubuntu | inference | dynamo | pass | R:0 D:4 P:0 C:11 | pending | community |
 | gb200-nvke-ubuntu-training-kubeflow | nvke | gb200 | ubuntu | training | kubeflow | pass | R:0 D:4 P:2 C:6 | pending | community |
 | gb300-nvke-ubuntu-inference-dynamo | nvke | gb300 | ubuntu | inference | dynamo | pass | R:0 D:4 P:0 C:11 | pending | community |
 | gb300-nvke-ubuntu-training-kubeflow | nvke | gb300 | ubuntu | training | kubeflow | pass | R:0 D:4 P:1 C:6 | pending | community |

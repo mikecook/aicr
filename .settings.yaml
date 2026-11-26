@@ -203,14 +203,14 @@ testing_tools:
     darwin_amd64: '214d890745b45679400442552ad4554fb4df622b92d031931536eff85bdb46c2'
     darwin_arm64: 'af2834052ba32fe8006a44a31db16cad30baf1c46f6b59160b092974578d7798'
   # renovate: datasource=github-releases depName=helmfile/helmfile depType=testing_tools
-  helmfile: 'v1.8.4'
+  helmfile: 'v1.8.5'
   # helmfile_checksums are refreshed automatically by tools/update-helmfile-checksums
   # via Renovate postUpgradeTasks whenever the helmfile version above is bumped.
   helmfile_checksums:
-    linux_amd64: '1f19ced8adb0cdf2350e94ca598cf64e390d8c21d0d9b4bdc1c9f246d4591c9d'
-    linux_arm64: '96f898a9faf236e06c5e65bf39a7f4ca727f5e911be1b28e2c2f80adabc132ed'
-    darwin_amd64: '859ab46d4608ebc1005c5f7c3c07d35562330340795b40750dbb316aae608390'
-    darwin_arm64: '61e7fa5401269785d6ee7bc1eac21e614371c00c705fda6e2e9f9d02c0fbc7b3'
+    linux_amd64: 'e10344a4e6121689265c8fbe8ce96977b4722a9f953db862014a08b99938c333'
+    linux_arm64: '023b28a0630b60b392407f107b336502d11fec7e901dc631cfff7d2cc86a80c2'
+    darwin_amd64: '4a3919de8d4401a0e3ab751a4f15806c0b72561c1045eebe0c9ad91d90f90021'
+    darwin_arm64: 'aa8c5e0c0ebb331e5a3eacbe3ee4bacd45f8a0c6ef361a79dea23b7bf4c4a76f'
   # renovate: datasource=github-releases depName=kubernetes-sigs/kwok depType=testing_tools
   kwok: 'v0.8.0'
   # renovate: datasource=github-releases depName=kyverno/chainsaw depType=testing_tools
@@ -233,7 +233,7 @@ testing_tools:
   # Run with USE_SSL=1: sigstore's awskms signer hardcodes https://, so the e2e
   # serves TLS with a mkcert cert (see mkcert below).
   # renovate: datasource=docker depName=ministackorg/ministack depType=testing_tools
-  ministack_image: 'ministackorg/ministack:1.5.43'
+  ministack_image: 'ministackorg/ministack:1.5.44'
   # OpenBAO: the Linux Foundation Apache-2.0 fork of HashiCorp Vault, used by the
   # Vault KMS e2e to exercise the hashivault:// signing/verification path against
   # a real Transit secrets engine. API-identical to Vault; the sigstore hashivault
